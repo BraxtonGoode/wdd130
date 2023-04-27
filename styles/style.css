@@ -30,7 +30,7 @@ main {
 }
 
 aside {
-    width: auto;
+    width: 400px;
     margin: 1em;
     border: 1px solid black;
     padding: 1em;
