@@ -40,10 +40,9 @@ main {
 
 
 aside {
-    width: 400px;
-    
+    width: 400px;    
     text-align: center;
-
+    position: relative;
 }
 
 aside h2 {
