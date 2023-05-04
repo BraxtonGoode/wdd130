@@ -19,6 +19,10 @@ h1 {
     color: steelblue;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 main img {
     width: 150px;
     height: auto;
@@ -41,20 +45,22 @@ main {
 
 
 aside {
-    width: 400px;    
+    width: 500px;    
     text-align: center;
     position: relative;
 }
 
 aside h2 {
-    position: absolute;
-    bottom: auto;
+    position: absolute;    
+    text-align: center;
+    margin: 0 0 0 40px;
 }
 
 aside img {
     padding: 30px;
     width: 300px;
     height: auto;
+    margin: 30px;
 }
 
 footer {
