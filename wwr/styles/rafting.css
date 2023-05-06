@@ -79,3 +79,7 @@ body {
     margin-left: 40px;    
     width: 200px;
   }
+
+footer a {
+  text-decoration: none;
+}
