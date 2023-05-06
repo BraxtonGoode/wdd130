@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 :root{
     --primary-color: #78BC61;
     --secondary-color: #394648;
@@ -12,7 +14,6 @@
     --nav-hover-link-color: #2191FB;
     --nav-hover-background-color: #FF6F59;
 }
-
 
 h1,h2 {
     font-family: var(--heading-font);
