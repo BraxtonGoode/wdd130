@@ -106,6 +106,7 @@ section {
 .hero {
     position: relative;
     height: 325px;
+    background-color: var(--secondary-color);
   }
 
   .hero img {
@@ -189,6 +190,7 @@ section {
   justify-items: center;
   align-items:center ;
   height: 100px;
+  background-color: var(--secondary-color);
 }
   p {
     
