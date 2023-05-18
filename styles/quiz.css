@@ -22,7 +22,7 @@ form {
     height: auto;
     margin: auto;
     padding: 10px;
-    width: 500px;
+    width: 450px;
     border-radius: 1em;
     background-color: lightgray;
 }
@@ -49,6 +49,12 @@ input, textarea, select {
 
 button {
     text-align: center;
+    background-color: darkblue;
+    color: white;
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    border-radius: .3em;
     
 }
 
