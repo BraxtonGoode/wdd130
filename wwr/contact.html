@@ -56,12 +56,18 @@
                         </div>
                         <div>
                             <label for="message">Purpose of Message</label>
-                            <select  id="message" name="message">
-                                <option value="" selected disabled> Choose one...</option>
-                                <option value="General_Inquiry">General Inquiry</option>
-                                <option value="Reservation_Question">Reservation Question</option>
-                                <option value="Website_Suggestion">Website_Suggestion</option>
-                            </select>
+
+                            <input type="radio" id="contactchoice1" name="choice1" value="General Inquiry">
+                            <label for="contactchoice1">Email</label>
+
+                            <input type="radio" id="contactchoice2" name="choice2" value="Reservation_Question">
+                            <label for="contactchoice2">Reservation_Question</label>
+
+                            <input type="radio" id="contactchoice3" name="choice3" value="Website_Suggestion">
+                            <label for="contactchoice3">Website_Suggestion</label>
+
+
+                            
                             <div>
                                 <textarea id="txt_message" name="txt_message"></textarea>
                             </div>                      
