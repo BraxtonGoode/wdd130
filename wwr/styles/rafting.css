@@ -43,7 +43,7 @@ header {
   align-items: center;
   max-width: 100%;
   background-color: var(--primary-color);
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 header img {
@@ -185,7 +185,7 @@ section {
 .footer {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   justify-items: center;
   align-items:center ;
@@ -194,29 +194,78 @@ section {
 }
   p {
     
-    grid-column: 1/4;
+    grid-column: 1/2;
     justify-items: center;
     align-items: center;
   }
 
   .footer1  {    
-    
+    display: flex;
     text-decoration: none;
     
-    grid-column: 4/5;
+    grid-column: 2/3;
     grid-row: 1;
   }
 
   .footer2  {
     display: flex;
     text-decoration: none;
-    grid-column: 5/6;
+    grid-column: 3/4;
     grid-row: 1;
   }
 
   .footer3  {
     display: flex;
     text-decoration: none;
-    grid-column: 6/7;
+    grid-column: 4/5;
     grid-row: 1;
   }
+  footer img {
+    height: 75px;
+    width: 75px;
+  }
+
+/* Contact html  */
+
+ .info {
+  display: grid; 
+  background-color: var(--secondary-color);
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.employee_img {
+  display: grid;
+  background-color: var(--secondary-color);
+  grid-template-columns: repeat(3, 1fr);
+  padding:15px;
+}
+  img {
+    width: 270px;
+    justify-self: center;
+    flex-wrap: wrap;
+  }
+
+form {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-align: center;
+}
+
+textarea {
+  padding: 100px;
+  width: 20%;
+  box-sizing: content-box;
+  
+}
+
+button {
+  background-color: var(--primary-color);
+  width: 100px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #2191FB;
+}
