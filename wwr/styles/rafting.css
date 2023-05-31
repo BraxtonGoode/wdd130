@@ -274,6 +274,7 @@ button:hover {
   background-color: #2191FB;
 }
 
+/* Trips Page Class */
 .trips1 {
   background-color: var(--secondary-color);
   text-align: center;
@@ -310,15 +311,51 @@ button:hover {
   margin: 10px;
   justify-content: center;
   
+  
 }
 
 table, td {       
   border: 2px black;
   border-collapse: separate;
   text-align: center;
+  
 }
 
 th {
   padding: 10px;
   
 }
+
+/* Home page Classes */
+
+.Home1 {
+  margin-bottom: -10px;
+}
+
+.Home2 {
+  background-color: var(--secondary-color);
+  height: 100px;
+  
+}
+.Home2 a {
+  text-decoration: none;
+}
+
+.Home3 {
+  background-color: var(--secondary-color);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  
+  
+
+}
+  
+  
+  .Home3 figure {
+    grid-template-columns: 1/4;
+    grid-row: 3/4;
+    
+    
+  }
+  
